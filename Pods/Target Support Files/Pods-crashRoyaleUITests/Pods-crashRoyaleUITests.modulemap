@@ -1,0 +1,6 @@
+framework module Pods_crashRoyaleUITests {
+  umbrella header "Pods-crashRoyaleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
