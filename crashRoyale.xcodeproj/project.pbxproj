@@ -10,14 +10,22 @@
 		05BBCB32AD4E475B49ADF0FA /* Pods_crashRoyale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55952CB16679BD00FC63F9BF /* Pods_crashRoyale.framework */; };
 		2918E209FE7A6E1F875B6FAA /* Pods_crashRoyaleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E7A8F654D3761BF226B12B /* Pods_crashRoyaleUITests.framework */; };
 		4C56CC607879B45D8F0BDDB2 /* Pods_crashRoyaleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE162F6D107C3CB04573A90 /* Pods_crashRoyaleTests.framework */; };
+		F61FEDAC22D31BFC00953494 /* tableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61FEDAB22D31BFC00953494 /* tableViewDelegate.swift */; };
+		F61FEDB022D3281800953494 /* tableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61FEDAF22D3281800953494 /* tableView.swift */; };
+		F63DB2B822DC6D960072C100 /* secondViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63DB2B722DC6D960072C100 /* secondViewButton.swift */; };
+		F65511DF22DC40DF0076055E /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65511DE22DC40DF0076055E /* secondViewController.swift */; };
 		F665CDFE22D1FF40006A03CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665CDFD22D1FF40006A03CA /* AppDelegate.swift */; };
 		F665CE0022D1FF40006A03CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665CDFF22D1FF40006A03CA /* ViewController.swift */; };
-		F665CE0322D1FF40006A03CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F665CE0122D1FF40006A03CA /* Main.storyboard */; };
 		F665CE0522D1FF41006A03CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F665CE0422D1FF41006A03CA /* Assets.xcassets */; };
 		F665CE0822D1FF41006A03CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F665CE0622D1FF41006A03CA /* LaunchScreen.storyboard */; };
-		F665CE1322D1FF41006A03CA /* crashRoyaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665CE1222D1FF41006A03CA /* crashRoyaleTests.swift */; };
-		F665CE1E22D1FF41006A03CA /* crashRoyaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665CE1D22D1FF41006A03CA /* crashRoyaleUITests.swift */; };
-		F665CE2E22D204BD006A03CA /* testSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665CE2D22D204BD006A03CA /* testSpec.swift */; };
+		F6ABE05A22DC4B9800FB0D1B /* secondViewLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ABE05922DC4B9800FB0D1B /* secondViewLabel.swift */; };
+		F6C3855922D37ACC00B12368 /* tableViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C3855822D37ACC00B12368 /* tableViewSpec.swift */; };
+		F6D9C8A622D3866A008E7E4C /* tableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61FEDAF22D3281800953494 /* tableView.swift */; };
+		F6D9C8A722D3866B008E7E4C /* tableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61FEDAF22D3281800953494 /* tableView.swift */; };
+		F6D9C8A922D39943008E7E4C /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D9C8A822D39943008E7E4C /* APIController.swift */; };
+		F6D9C8AA22D39943008E7E4C /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D9C8A822D39943008E7E4C /* APIController.swift */; };
+		F6D9C8AB22D39943008E7E4C /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D9C8A822D39943008E7E4C /* APIController.swift */; };
+		F6DE23B322D354C1002196CC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE23B222D354C1002196CC /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,24 +55,28 @@
 		C9FA1BB26CFD16C7980E8424 /* Pods-crashRoyale.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crashRoyale.release.xcconfig"; path = "Pods/Target Support Files/Pods-crashRoyale/Pods-crashRoyale.release.xcconfig"; sourceTree = "<group>"; };
 		E9D95787AA2E3DB9B0340FA2 /* Pods-crashRoyaleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crashRoyaleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-crashRoyaleTests/Pods-crashRoyaleTests.release.xcconfig"; sourceTree = "<group>"; };
 		EC135BA36B917178599A6C5F /* Pods-crashRoyaleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crashRoyaleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-crashRoyaleUITests/Pods-crashRoyaleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F61FEDAB22D31BFC00953494 /* tableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewDelegate.swift; sourceTree = "<group>"; };
+		F61FEDAF22D3281800953494 /* tableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableView.swift; sourceTree = "<group>"; };
+		F63DB2B722DC6D960072C100 /* secondViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewButton.swift; sourceTree = "<group>"; };
 		F650D07722D213B70070E679 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F650D07922D213BC0070E679 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F65511DE22DC40DF0076055E /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		F665CDFA22D1FF40006A03CA /* crashRoyale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crashRoyale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F665CDFD22D1FF40006A03CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F665CDFF22D1FF40006A03CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F665CE0222D1FF40006A03CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F665CDFF22D1FF40006A03CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		F665CE0422D1FF41006A03CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F665CE0722D1FF41006A03CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F665CE0922D1FF41006A03CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F665CE0E22D1FF41006A03CA /* crashRoyaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crashRoyaleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F665CE1222D1FF41006A03CA /* crashRoyaleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crashRoyaleTests.swift; sourceTree = "<group>"; };
 		F665CE1422D1FF41006A03CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F665CE1922D1FF41006A03CA /* crashRoyaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crashRoyaleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F665CE1D22D1FF41006A03CA /* crashRoyaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crashRoyaleUITests.swift; sourceTree = "<group>"; };
 		F665CE1F22D1FF41006A03CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F665CE2D22D204BD006A03CA /* testSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testSpec.swift; sourceTree = "<group>"; };
 		F665CE3022D20D0C006A03CA /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F665CE3222D20D10006A03CA /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6ABE05922DC4B9800FB0D1B /* secondViewLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewLabel.swift; sourceTree = "<group>"; };
+		F6C3855822D37ACC00B12368 /* tableViewSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewSpec.swift; sourceTree = "<group>"; };
+		F6D9C8A822D39943008E7E4C /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		F6DE23B222D354C1002196CC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +107,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F61FEDB122D3527A00953494 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F665CDFF22D1FF40006A03CA /* ViewController.swift */,
+				F6D9C8A822D39943008E7E4C /* APIController.swift */,
+				F65511DE22DC40DF0076055E /* secondViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F650D07F22D262F30070E679 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F61FEDAB22D31BFC00953494 /* tableViewDelegate.swift */,
+				F61FEDAF22D3281800953494 /* tableView.swift */,
+				F6ABE05922DC4B9800FB0D1B /* secondViewLabel.swift */,
+				F63DB2B722DC6D960072C100 /* secondViewButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F665CDF122D1FF40006A03CA = {
 			isa = PBXGroup;
 			children = (
@@ -120,9 +153,10 @@
 		F665CDFC22D1FF40006A03CA /* crashRoyale */ = {
 			isa = PBXGroup;
 			children = (
+				F6DE23B122D35407002196CC /* Model */,
+				F61FEDB122D3527A00953494 /* Controller */,
+				F650D07F22D262F30070E679 /* View */,
 				F665CDFD22D1FF40006A03CA /* AppDelegate.swift */,
-				F665CDFF22D1FF40006A03CA /* ViewController.swift */,
-				F665CE0122D1FF40006A03CA /* Main.storyboard */,
 				F665CE0422D1FF41006A03CA /* Assets.xcassets */,
 				F665CE0622D1FF41006A03CA /* LaunchScreen.storyboard */,
 				F665CE0922D1FF41006A03CA /* Info.plist */,
@@ -133,9 +167,8 @@
 		F665CE1122D1FF41006A03CA /* crashRoyaleTests */ = {
 			isa = PBXGroup;
 			children = (
-				F665CE1222D1FF41006A03CA /* crashRoyaleTests.swift */,
 				F665CE1422D1FF41006A03CA /* Info.plist */,
-				F665CE2D22D204BD006A03CA /* testSpec.swift */,
+				F6C3855822D37ACC00B12368 /* tableViewSpec.swift */,
 			);
 			path = crashRoyaleTests;
 			sourceTree = "<group>";
@@ -143,7 +176,6 @@
 		F665CE1C22D1FF41006A03CA /* crashRoyaleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F665CE1D22D1FF41006A03CA /* crashRoyaleUITests.swift */,
 				F665CE1F22D1FF41006A03CA /* Info.plist */,
 			);
 			path = crashRoyaleUITests;
@@ -161,6 +193,14 @@
 				28E7A8F654D3761BF226B12B /* Pods_crashRoyaleUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6DE23B122D35407002196CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F6DE23B222D354C1002196CC /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		FD8AFF58C7975D83B7BCA195 /* Pods */ = {
@@ -287,7 +327,6 @@
 			files = (
 				F665CE0822D1FF41006A03CA /* LaunchScreen.storyboard in Resources */,
 				F665CE0522D1FF41006A03CA /* Assets.xcassets in Resources */,
-				F665CE0322D1FF40006A03CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,8 +448,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F61FEDAC22D31BFC00953494 /* tableViewDelegate.swift in Sources */,
+				F65511DF22DC40DF0076055E /* secondViewController.swift in Sources */,
+				F61FEDB022D3281800953494 /* tableView.swift in Sources */,
+				F63DB2B822DC6D960072C100 /* secondViewButton.swift in Sources */,
+				F6D9C8A922D39943008E7E4C /* APIController.swift in Sources */,
 				F665CE0022D1FF40006A03CA /* ViewController.swift in Sources */,
+				F6DE23B322D354C1002196CC /* User.swift in Sources */,
 				F665CDFE22D1FF40006A03CA /* AppDelegate.swift in Sources */,
+				F6ABE05A22DC4B9800FB0D1B /* secondViewLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,8 +464,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F665CE2E22D204BD006A03CA /* testSpec.swift in Sources */,
-				F665CE1322D1FF41006A03CA /* crashRoyaleTests.swift in Sources */,
+				F6D9C8AA22D39943008E7E4C /* APIController.swift in Sources */,
+				F6C3855922D37ACC00B12368 /* tableViewSpec.swift in Sources */,
+				F6D9C8A622D3866A008E7E4C /* tableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +474,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F665CE1E22D1FF41006A03CA /* crashRoyaleUITests.swift in Sources */,
+				F6D9C8A722D3866B008E7E4C /* tableView.swift in Sources */,
+				F6D9C8AB22D39943008E7E4C /* APIController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,14 +495,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F665CE0122D1FF40006A03CA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F665CE0222D1FF40006A03CA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F665CE0622D1FF41006A03CA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
